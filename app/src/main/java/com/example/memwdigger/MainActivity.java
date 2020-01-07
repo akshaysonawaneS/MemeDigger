@@ -86,6 +86,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void retriveMeme(){
+
         Log.e("inside","retrive");
         Toast.makeText(MainActivity.this,"Have Patience",Toast.LENGTH_SHORT).show();
         mRequestQueue = Volley.newRequestQueue(this);
