@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+    android:background="#D3E7F3">
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#D3E7F3"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tit"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:textColor="#FFF"
+        android:background="#A950A1"
+        android:fontFamily="monospace"
+        android:textSize="20dp"/>
+    <ImageView
+        android:id="@+id/meme"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="TODO" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/next_button"
+        android:text="next"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFF"
+        />
+    <Button
+        android:id="@+id/orignal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/orignal_button"
+        android:textColor="#FFF"
+        android:text="See orignal"
+        />
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#D3E7F3"
+        android:text="About?"/>
+
+</LinearLayout>
+</ScrollView>
