@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Log.e("git","git");
         next1 = (Button)findViewById(R.id.next);
         imageView = (ImageView) findViewById(R.id.meme);
         orignal1 = (Button)findViewById(R.id.orignal);
